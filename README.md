@@ -33,4 +33,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+This repo is already pushed to GitHub at: `https://github.com/Bebika3/ai-study-assistant`
+
+### Quick Vercel steps
+
+1. Sign in to Vercel with GitHub.
+2. Import the `Bebika3/ai-study-assistant` repository.
+3. Add required environment variables in Project Settings:
+   - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+   - `CLERK_SECRET_KEY`
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `SUPABASE_SERVICE_KEY`
+   - `OPENAI_API_KEY`
+4. Deploy.
+
+For a more detailed guide, see [`VERCEL_DEPLOYMENT.md`](./VERCEL_DEPLOYMENT.md).
+
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
