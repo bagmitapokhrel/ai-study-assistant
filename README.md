@@ -1,53 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 AI Study Assistant
 
-## Getting Started
+An AI-powered study assistant built with **Next.js**, **TypeScript**, **Clerk**, **Supabase**, and the **OpenAI API**. It helps students study smarter with AI-driven learning tools in a clean and modern interface.
 
-First, run the development server:
+## ✨ Features
+
+* 🤖 AI-powered study assistance
+* 🔐 Secure authentication with Clerk
+* 📚 Organize study sessions
+* ☁️ Supabase database
+* ⚡ Fast, responsive, and modern UI
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/bagmitapokhrel/ai-study-assistant.git
+cd ai-study-assistant
+npm install
+```
+
+Create a `.env.local` file and add:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_KEY=
+OPENAI_API_KEY=
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000** in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Next.js
+* TypeScript
+* Clerk
+* Supabase
+* OpenAI API
+* Tailwind CSS
 
-## Learn More
+## 📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deploy easily on **Vercel** by importing the GitHub repository and adding the required environment variables.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-This repo is already pushed to GitHub at: `https://github.com/Bebika3/ai-study-assistant`
-
-### Quick Vercel steps
-
-1. Sign in to Vercel with GitHub.
-2. Import the `Bebika3/ai-study-assistant` repository.
-3. Add required environment variables in Project Settings:
-   - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
-   - `CLERK_SECRET_KEY`
-   - `NEXT_PUBLIC_SUPABASE_URL`
-   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   - `SUPABASE_SERVICE_KEY`
-   - `OPENAI_API_KEY`
-4. Deploy.
-
-For a more detailed guide, see [`VERCEL_DEPLOYMENT.md`](./VERCEL_DEPLOYMENT.md).
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
